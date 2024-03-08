@@ -1,0 +1,68 @@
+body {
+    background: #fff;
+    margin-bottom: 1em;
+}
+
+
+header {
+    text-align: center;
+    color: red;
+
+}
+
+.clearfix-container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.col {
+    width: 100%;
+    overflow: hidden;
+}
+
+.box {
+    width: calc((100% / 3) - 20px);
+    margin: 0 10px 20px 10px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    overflow: auto;
+}
+
+.float-image {
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+}
+
+
+
+.nome,
+.box div {
+    float: left;
+    width: 55%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.professione {
+    font-size: small;
+}
+
+
+.nome {
+    font-size: larger;
+}
+
+.blue {
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
